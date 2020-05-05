@@ -1,2 +1,2 @@
 # NumericalAnalysis
-数值积分实验内容
+数值分析实验内容
