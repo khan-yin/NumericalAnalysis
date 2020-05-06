@@ -1,5 +1,6 @@
 ##改进欧拉法
 
+#y的一阶导数
 def func(x,y):
     return y-2*x/y
 

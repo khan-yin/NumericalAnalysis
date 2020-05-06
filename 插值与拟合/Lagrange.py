@@ -5,6 +5,7 @@ x=[100,121,144]
 y=[10,11,12]
 data_x=np.array(x)
 data_y=np.array(y)
+#拉格朗日插值
 def pxlagrange(x,y):
     l=len(x)
     p = np.poly1d(0.0)
@@ -18,6 +19,6 @@ def pxlagrange(x,y):
         p+=s
     return p
 a=pxlagrange(x,y)
-print("p(x)=\n",a)
-print("p(115)=",a(115))
+print("p(x)=\n",a)#插值表达式
+print("√115：p(115)=",a(115))
 

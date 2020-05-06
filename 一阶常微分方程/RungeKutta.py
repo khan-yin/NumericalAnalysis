@@ -3,6 +3,7 @@ y0=1
 h=0.2
 N=6
 
+#y的一阶导数
 def func(x,y):
     return y-2*x/y
 

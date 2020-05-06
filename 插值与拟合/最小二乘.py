@@ -13,6 +13,7 @@ w=np.linalg.inv(x.T@x)@x.T@y#最小二乘矩阵形式
 # w= np.dot(np.dot(np.linalg.inv(np.dot(x.T, x)), x.T), y)
 print(w)
 print(xm[0]*w[0]+w[1])
+
 #画图检验
 xs=np.linspace(np.min(xm),np.max(xm),10,endpoint=True)
 ys=xs*w[0]+w[1]#拟合函数y的预测值计算

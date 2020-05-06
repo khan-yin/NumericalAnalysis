@@ -1,10 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
-a=0
-b=1
-c=1e-4
+a=0#积分下限
+b=1#积分上限
+c=1e-4#精确度
+# 被积函数
 def func(x):
     return np.append(1,np.sin(x[1:])/x[1:])
+
 t1=(1-0)/1*(1+np.sin(1)/1)/2
 # print(t1)
 n = 2

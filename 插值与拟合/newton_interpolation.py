@@ -4,6 +4,7 @@ x=np.array([-2,-1,0,1,2,3])
 y=np.array([-5,1,1,1,7,25])
 # x=np.array([100,121,144])
 # y=np.array([10,11,12])
+#求差商的公式
 def chashang(l):
     p=0
     if(l==0):
@@ -18,6 +19,7 @@ def chashang(l):
         p+=f/s
     return p
 
+#牛顿插值
 def newt(x):
     l = len(x)
     w = np.poly1d(1)
@@ -32,7 +34,7 @@ def newt(x):
     return p
 
 New=newt(x)
-print(New)
+print(New)#牛顿插值的表达式
 # print(New(115))
 
 #画图检验
