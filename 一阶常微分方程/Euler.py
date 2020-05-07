@@ -21,4 +21,4 @@ y0=1
 h=0.1
 N=11
 x1,y1=prove_euler(x0,y0,h,N)
-print(x1,y1)
+print("x={},y={}".format(x1,y1))

@@ -1,4 +1,3 @@
-from scipy.interpolate import lagrange
 import numpy as np
 import matplotlib.pyplot as plt
 x=[100,121,144]
@@ -21,4 +20,4 @@ def pxlagrange(x,y):
 a=pxlagrange(x,y)
 print("p(x)=\n",a)#插值表达式
 print("√115：p(115)=",a(115))
-
+print("√115精确值：",np.sqrt(115))
